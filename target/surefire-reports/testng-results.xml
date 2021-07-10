@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="187" started-at="2021-07-04T22:52:14 IST" finished-at="2021-07-04T22:52:14 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="187" started-at="2021-07-04T22:52:14 IST" finished-at="2021-07-04T22:52:14 IST">
+      <class name="com.appium.TestAppium">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.appium.TestAppium@5a8806ef]" name="beforeTest" is-config="true" duration-ms="39" started-at="2021-07-04T22:52:14 IST" finished-at="2021-07-04T22:52:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="MyTest()[pri:0, instance:com.appium.TestAppium@5a8806ef]" name="MyTest" duration-ms="2" started-at="2021-07-04T22:52:14 IST" finished-at="2021-07-04T22:52:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.appium.TestAppium@5a8806ef]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-07-04T22:52:14 IST" finished-at="2021-07-04T22:52:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.appium.TestAppium -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
