@@ -24,7 +24,8 @@ public class TestFlipkart {
 	@BeforeTest
 	public void setUp() throws Exception {
 		
-		URL URL = new URL("http://127.0.0.1:4723/wd/hub");
+//		URL URL = new URL("http://127.0.0.1:4723/wd/hub");
+		URL URL = new URL("http://0.0.0.0:4444/wd/hub");
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion", "11");
