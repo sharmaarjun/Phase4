@@ -17,6 +17,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 //import org.testng.annotations.DataProvider;
 
@@ -26,7 +28,7 @@ public class TestFlipkart {
 //	AndroidDriver<MobileElement> driver;
 	AppiumDriver<WebElement> driver;
 	
-	@BeforeTest
+	@BeforeClass
 	public void setup() throws MalformedURLException {
 		// TODO Auto-generated method stub
 		DesiredCapabilities cap = new DesiredCapabilities();
@@ -60,7 +62,10 @@ public class TestFlipkart {
 		Thread.sleep(1000);
 		Assert.assertEquals(total, expected);
 	}
-	
+	@AfterClass
+	public void shutDown() {
+		driver.quit();
+	}
 	
 	
 	
